@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartCell | E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Header Starts-->
+
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" width="125px" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img src="images/cart.png" width="30px" height="30px" alt="" />
+          <img
+            src="images/menu.png"
+            class="menu-icon"
+            alt=""
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>The speed you need<br />Never Settle!</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+              quaerat non <br />
+              corporis reiciendis quasi similique incidunt ea iste vel ad,
+              laboriosam fuga.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Header Ends-->
+
+    <!-- Featured category Starts -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featured category Ends -->
+
+    <div class="small-container">
+      <!-- Featured products Starts -->
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-1.png" />
+          <h4>Xiaomi Mi 10</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.png" />
+          <h4>Redmi k20 Pro</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$350</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-3.png" />
+          <h4>Redmi Note 9 Pro</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$220</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-4.png" />
+          <h4>Xiaomi Mi A3</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$300</p>
+        </div>
+      </div>
+      <!--Featured products ends-->
+
+      <!--Latest products sarts-->
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.png" />
+          <h4>Mi TV 4X 163.9cm (65)</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$859</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-6.png" />
+          <h4>Mi Notebook 14</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$799</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.jpg" />
+          <h4>Samsung 4K Ultra HD TV 55"</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.jpg" />
+          <h4>Dell Alienware M15</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$3000</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" />
+          <h4>Roadstar Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$300</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.png" />
+          <h4>Redmi ear buds</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" />
+          <h4>Fossil Wrist Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$900</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" />
+          <h4>Mi Router 4C</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20</p>
+        </div>
+      </div>
+      <!--Latest products ends-->
+    </div>
+    <!--Offer section starts-->
+    <div class="offer">
+      <div class="small-comtainer">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/exclusive.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively available at SmartCell</p>
+            <h1>Mi Band 5</h1>
+            <small>
+              Fully monitor your heart rate, sleep and physical state Reignite
+              your health.<br>11 professional sports modes
+              The more you move, the more weight you lose. <br>
+            </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Offer section ends-->
+
+    <!--tenstimonials starts-->
+    <div class="testimonials">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+              accusantium, odio minus minima voluptatem voluptatibus in
+              delectus, adipisci debitis alias quibusdam iste harum pariatur.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user-1.jpg" alt="" />
+            <h3>Adam Smith</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+              accusantium, odio minus minima voluptatem voluptatibus in
+              delectus, adipisci debitis alias quibusdam iste harum pariatur.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-2.jpg" alt="" />
+            <h3>Saleema Amershi</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+              accusantium, odio minus minima voluptatem voluptatibus in
+              delectus, adipisci debitis alias quibusdam iste harum pariatur.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="images/user-3.jpg" alt="" />
+            <h3>Brandon Turner</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial ends-->
+
+    <!-- clients starts -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo-samsung.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-apple.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-xiaomi.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-dell.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--clients ends-->
+
+    <!-- footer starts  -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download for android and iOS.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              sapiente, sit distinctio saepe id enim.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us:</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - &copy SmartCell</p>
+      </div>
+    </div>
+    <!-- footer ends -->
+
+    <!-- javaScript code-->
+    <script src="script.js"></script>
+    <!--JavaScript code-->
+  </body>
+</html>
